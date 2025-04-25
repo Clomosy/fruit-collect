@@ -732,7 +732,6 @@ void SortArr;
   
   {
     try
-    {
       for (X = 0 to  ScoreArray.Count - 1)
       {
         for (Y = X + 1 to ScoreArray.Count - 1)
@@ -757,9 +756,7 @@ void SortArr;
           }
         }
       }
-    }
     except
-      {
         ShowMessage('Exception Class: '+LastExceptionClassName+' Exception Message: '+LastExceptionMessage);
       }
     
@@ -783,7 +780,6 @@ void MqttScreenPublish;
    ScoreState : Boolean;
   { 
       try
-      {
         if(MqttEkran.ReceivedAlRight) 
         {
           
@@ -852,9 +848,7 @@ void MqttScreenPublish;
           UsersList.clLoadProListViewDataFromDataset(Qry);
           
         }
-      }
       except
-      {
         ShowMessage('Exception Class: '+LastExceptionClassName+' Exception Message: '+LastExceptionMessage);
       }
   }
