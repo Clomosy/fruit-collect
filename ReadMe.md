@@ -5,8 +5,8 @@ In this project, we are collecting food falling from the sky. If we collect heal
 
 ## Starting the Game:
 
-* To start the game, click the 'BAŞLAT' button in the entry section.
-Note: If you press the "Başlat" button on mobile, you will start the game directly, and if you press the "Başlat" button on Windows, you can see the list of players.
+* To start the game, click the 'OYNA' button in the entry section.
+Note: If you press the "OYNA" button on mobile, you will start the game directly, and if you press the "OYNA" button on Windows, you can see the list of players.
 Playing the Game:
 
 * Use the Right and Left Arrow keys to move right and left.
